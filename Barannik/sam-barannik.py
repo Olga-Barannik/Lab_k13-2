@@ -42,9 +42,22 @@ print(s)
 
 
 #12
+#Перший спосіб 
 x=float(input())
 y=float(input())
 x=x+y
 y=x-y
 x=x-y
+print(x','y)
+#Другий спосіб 
+x=float(input())
+y=float(input())
+temp=x
+x=y
+y=temp
+print(x','y)
+#Третій спосіб 
+x=float(input())
+y=float(input())
+x, y=y,x
 print(x','y)
